@@ -18,11 +18,11 @@ spec:
   template:
     metadata:
       labels:
-        app:  MYAPP
+        app: WebApp
     spec:
       containers:
-      - name:  Web-container
-        image:  omargaballa/demo-pipeline:latest
+      - name: Web-container
+        image: omargaballa/demo-pipeline:latest
         resources:
           requests:
             cpu: 100m
@@ -39,5 +39,5 @@ spec:
           failureThreshold: 3
           periodSeconds: 10
         ports:
-        - containerPort:  80
+         - containerPort:  80
 
