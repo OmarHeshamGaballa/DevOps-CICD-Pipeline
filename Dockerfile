@@ -7,5 +7,7 @@ WORKDIR /var/www/html/
 RUN unzip photogenic.zip
 RUN cp -rvf photogenic/* .
 RUN rm -rf photogenic photogenic.zip
+RUN echo "ServerName example.com" >> /etc/apache2/apache2.conf
+RUN service apache2 restart
 CMD ["apache2ctl", "-D", "FOREGROUND"]
 EXPOSE 80
