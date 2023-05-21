@@ -1,14 +1,14 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Web-deployment
+  name: web-deployment
   namespace: default
   labels:
-    app: WebApp
+    app: webapp
 spec:
   selector:
     matchLabels:
-      app: WebApp
+      app: webapp
   replicas: 3
   strategy:
     rollingUpdate:
@@ -21,7 +21,7 @@ spec:
         app: WebApp
     spec:
       containers:
-      - name: Web-container
+      - name: web-container
         image: omargaballa/demo-pipeline:latest
         resources:
           requests:
