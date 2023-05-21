@@ -1,4 +1,4 @@
-FROM  centos:centos8
+FROM  ubuntu:latest
 RUN yum install update -y
 RUN  yum install -y httpd
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
