@@ -1,9 +1,6 @@
 - hosts: all
   become: yes
   tasks: 
-    - name: start minikube && sleep 10
-      become: no
-      command: minikube start
     - name: create new deployment
       command:  kubectl apply -f /home/ubuntu/deployment.yml
     - name: create new service
