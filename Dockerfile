@@ -10,6 +10,6 @@ RUN unzip photogenic.zip
 RUN cp -rvf photogenic/* .
 RUN rm -rf photogenic photogenic.zip
 RUN echo "ServerName 127.0.0.1" >> /etc/httpd/conf/httpd.conf
-RUN sudo systemctl reload httpd.service
+RUN systemctl reload httpd.service
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
