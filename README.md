@@ -2,6 +2,7 @@
 
 ## Prerequisites
 
+
 ### Creating 3 EC2 instances :
 
 **Jenkins** (ubuntu & t2.micro)
@@ -12,6 +13,8 @@
    
  **K8S**     (ubuntu & t2.meduim)
    - install minikube & Docker on this instance, [Docker installation guide](https://docs.docker.com/engine/install/ubuntu/) & [minikube installation guide](https://minikube.sigs.k8s.io/docs/start/)
+
+
 
 ## Project Description
 
@@ -29,8 +32,9 @@
 
 6- The last stage is to run Ansible-playbook which is going to configure my k8s cluster and create mywebserver deployment and cluster
 
-## Testing Pipeline
 
+
+## Testing Pipeline
 
 
 https://github.com/OmarHeshamGaballa/DevOps-CICD-Pipeline/assets/122731503/1a421a9a-179a-4412-91bb-d9eedc55e401
