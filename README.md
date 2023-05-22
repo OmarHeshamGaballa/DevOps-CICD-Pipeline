@@ -1,9 +1,9 @@
 # DevOps-CICD-Pipeline
 
-## $${\color{orange}Prerequisites}$$
+## Prerequisites
 
 
-### $${\color{red}Creating \space 3 \space EC2 \space instances :}$$
+### Creating 3 EC2 instances
 
 **Jenkins** (ubuntu & t2.micro)
    - Install jenkins on this instance, You can use this guide from [here](https://www.jenkins.io/doc/book/installing/linux
@@ -16,7 +16,7 @@
 
 
 
-## $${\color{orange}Project Descreption}$$
+## Project Description
 
 ![project](https://github.com/OmarHeshamGaballa/DevOps-CICD-Pipeline/assets/122731503/e79c97bb-8373-41aa-88cb-2fdf00ed2bb1)
 
@@ -34,7 +34,7 @@
 
 
 
-## $${\color{orange}Testing Pipeline}$$
+## Testing Pipeline
 
 
 
