@@ -16,7 +16,7 @@
 
 
 
-## $${\color{red}Project Descreption}$$
+## $${\color{orange}Project Descreption}$$
 
 ![project](https://github.com/OmarHeshamGaballa/DevOps-CICD-Pipeline/assets/122731503/e79c97bb-8373-41aa-88cb-2fdf00ed2bb1)
 
@@ -34,7 +34,7 @@
 
 
 
-## $${\color{red}Testing Pipeline}$$
+## $${\color{orange}Testing Pipeline}$$
 
 
 https://github.com/OmarHeshamGaballa/DevOps-CICD-Pipeline/assets/122731503/1a421a9a-179a-4412-91bb-d9eedc55e401
