@@ -3,7 +3,7 @@
 ## $${\color{orange}Prerequisites}$$
 
 
-### Creating 3 EC2 instances :
+### $${\color{red}Creating 3 EC2 instances :}$$
 
 **Jenkins** (ubuntu & t2.micro)
    - install jenkins on this instance, You can use this guide from [here](https://www.jenkins.io/doc/book/installing/linux
