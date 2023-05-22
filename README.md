@@ -3,10 +3,13 @@
 ## Prequisites
 
 ### Creating 3 EC2 instances :
+
 **Jenkins** (ubuntu & t2.micro)
-   - install jenkins on this instance, You can use this guide from [here](https://www.jenkins.io/doc/book/installing/linux/)
+   - install jenkins on this instance, You can use this guide from [here](https://www.jenkins.io/doc/book/installing/linux
+   
 **Ansible**  (ubuntu & t2.micro) 
    - install Ansible & Docker on this instance, [Asnible installation guide](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)&[Docker installation guide](https://docs.docker.com/engine/install/ubuntu/)
+   - 
  **K8S**     (ubuntu & t2.meduim)
    - install minikube @ Docker on this instance, [Docker installation guide](https://docs.docker.com/engine/install/ubuntu/) & [minikube installation guide](https://minikube.sigs.k8s.io/docs/start/)
 
