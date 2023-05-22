@@ -35,5 +35,5 @@
 
 https://github.com/OmarHeshamGaballa/DevOps-CICD-Pipeline/assets/122731503/1a421a9a-179a-4412-91bb-d9eedc55e401
 
-
+style="color:orange;">Word up</span>
 
