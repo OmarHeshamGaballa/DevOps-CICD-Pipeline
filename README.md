@@ -1,6 +1,6 @@
 # DevOps-CICD-Pipeline
 
-## $${\color{lightblue}Light \space Prequisites}$$
+## $${\color{lightblue}Prequisites}$$
 
 ### Creating 3 EC2 instances :
 
