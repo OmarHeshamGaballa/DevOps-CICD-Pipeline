@@ -10,4 +10,4 @@ RUN rm -rf photogenic photogenic.zip
 RUN echo "ServerName example.com" >> /etc/apache2/apache2.conf
 RUN service apache2 restart
 CMD ["apache2ctl", "-D", "FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 22
