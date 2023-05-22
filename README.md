@@ -6,7 +6,7 @@
 ### Creating 3 EC2 instances
 
 **Jenkins** (ubuntu & t2.micro)
-   - Install jenkins on this instance, You can use this guide from [here](https://www.jenkins.io/doc/book/installing/linux
+   - Install jenkins on this instance, You can use this guide from [here](https://www.jenkins.io/doc/book/installing/linux)
    
 **Ansible**  (ubuntu & t2.micro) 
    - Install Ansible & Docker on this instance, [Asnible installation guide](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)&[Docker installation guide](https://docs.docker.com/engine/install/ubuntu/)
